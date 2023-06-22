@@ -1,0 +1,8 @@
+{
+  "queryStringParameters": {
+    "amount": 100,
+    "fromCurrency": "USD",
+    "toCurrency": "BRL",
+    "key": ""
+  }
+}
