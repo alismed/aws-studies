@@ -7,6 +7,13 @@ terraform {
   }
 
   required_version = ">= 1.5.7"
+
+  backend "s3" {
+    bucket = "backend-terraform-alismed"
+    key    = "terraform.tfstate"
+    region = "us-east-1"
+  }
+
 }
 
 provider "aws" {
